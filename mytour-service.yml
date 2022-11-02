@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: ${DB_PASSWORD:root}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/tourdb}
+    username: ${DB_USERNAME:root}
+    
+#registrationfindcustomer: http://localhost:8185/customer/findcustomer/
+#registrationgetemail: http://localhost:8185/customer/getemail/
+#notification: http://localhost:8082/notification/sendMail/
+
+registrationfindcustomer: http://registration-servicee/customer/findcustomer/
+registrationgetemail: http://registration-servicee/customer/getemail/
+notification: http://notification-service/notification/sendMail/

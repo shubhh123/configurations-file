@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    password: jymohhdvojdczcsi
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: shubhh1181@gmail.com
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: ${DB_PASSWORD:root}
+    url: jdbc:mariadb://localhost:3306/notificationdb
+    username: ${DB_USERNAME:root}
