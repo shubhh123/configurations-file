@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    password: ${DB_PASSWORD:root}
-    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/tourdb}
-    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:m@c!sgreat}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/packagedb}
+    username: ${DB_USERNAME:shubham}
     
 #registrationfindcustomer: http://localhost:8185/customer/findcustomer/
 #registrationgetemail: http://localhost:8185/customer/getemail/
